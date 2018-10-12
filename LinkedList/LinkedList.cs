@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 namespace LinkedList
 {
-    class LinkedList<T> : IEnumerable<T>
+    public  class LinkedList<T> : IEnumerable<T>
     {
         private int position = 0;
-        private Node<T> head;
+        public Node<T> head;
 
 
         public void Add(T value)
